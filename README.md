@@ -2,5 +2,7 @@
 
 ## Install
 `nvm use 20`
+
 `npm i`
-`npm r`
+
+`npm run dev`
