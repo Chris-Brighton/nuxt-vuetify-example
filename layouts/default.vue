@@ -13,14 +13,44 @@
         temporary
       >
       <v-list-item>
-        <NuxtLink style="display: block;"  to="/account-name/campaigns">Campaigns</NuxtLink>
+        <v-card variant="flat" title="User Name" append-icon="mdi-account">
+          <v-card-subtitle class="mb-2">
+            account name
+          </v-card-subtitle>
+        </v-card>
+      </v-list-item>
+      <v-divider/>
+      <v-list-item>
+        <NuxtLink to="/account-name/campaigns" class="nuxt-link">
+          <v-card color="primary" variant="flat">
+            <v-card-title class="d-flex">
+              Campaigns
+              <v-icon icon="mdi-package-variant" class="ml-auto"/>
+            </v-card-title>
+            <v-card-subtitle class="mb-2">
+              campaigns subtext
+            </v-card-subtitle>
+          </v-card>
+        </NuxtLink>
       </v-list-item>
       <v-list-item>
-        <NuxtLink style="display: block;"  to="/account-name/briefs">Briefs</NuxtLink>
+        <NuxtLink  to="/account-name/briefs" class="nuxt-link">
+          <v-card color="secondary" variant="flat">
+            <v-card-title class="d-flex">
+              Briefs
+              <v-icon icon="mdi-animation" class="ml-auto"/>
+            </v-card-title>
+            <v-card-subtitle class="mb-2">
+              briefs subtext
+            </v-card-subtitle>
+          </v-card>
+        </NuxtLink>
       </v-list-item>
     </v-navigation-drawer>
-    <v-main class="px-12">
-      <slot/>
+    <v-main>
+      <v-container>
+        <slot/>
+      </v-container>
     </v-main>
   </v-app>
 </template>
@@ -29,3 +59,9 @@
 import { ref } from 'vue';
 const drawer = ref(null);
 </script>
+
+<style>
+.nuxt-link {
+  text-decoration: unset;
+}
+</style>
