@@ -11,17 +11,13 @@
     <v-navigation-drawer
         v-model="drawer"
         temporary
-      >
-      <v-list-item>
-        <v-card variant="flat" title="User Name" append-icon="mdi-account">
-          <v-card-subtitle class="mb-2">
-            account name
-          </v-card-subtitle>
-        </v-card>
-      </v-list-item>
-      <v-divider/>
-      <v-list-item>
-        <NuxtLink to="/account-name/campaigns" class="nuxt-link">
+        >
+      <v-list>
+        <v-list-item prepend-icon="mdi-account" title="Chris Brighton" subtitle="chris.9540@gmail.com" />
+      </v-list>
+      <v-divider />
+      <v-list>
+        <v-list-item nuxt to="/account-name/campaigns">
           <v-card color="primary" variant="flat">
             <v-card-title class="d-flex">
               Campaigns
@@ -31,10 +27,8 @@
               campaigns subtext
             </v-card-subtitle>
           </v-card>
-        </NuxtLink>
-      </v-list-item>
-      <v-list-item>
-        <NuxtLink  to="/account-name/briefs" class="nuxt-link">
+        </v-list-item>
+        <v-list-item nuxt to="/account-name/briefs">
           <v-card color="secondary" variant="flat">
             <v-card-title class="d-flex">
               Briefs
@@ -44,8 +38,8 @@
               briefs subtext
             </v-card-subtitle>
           </v-card>
-        </NuxtLink>
-      </v-list-item>
+        </v-list-item>
+      </v-list>
     </v-navigation-drawer>
     <v-main>
       <v-container>
@@ -59,9 +53,3 @@
 import { ref } from 'vue';
 const drawer = ref(null);
 </script>
-
-<style>
-.nuxt-link {
-  text-decoration: unset;
-}
-</style>

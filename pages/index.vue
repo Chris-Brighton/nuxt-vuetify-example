@@ -43,6 +43,96 @@
           Error
         </v-btn>
       </v-list-item>
+      <v-list-item>
+        <v-btn color="primary">
+          Primary
+        </v-btn>
+      </v-list-item>
+      <v-list-item>
+        <v-btn color="secondary">
+          Secondary
+        </v-btn>
+      </v-list-item>
+      <v-list-item>
+        <v-btn color="info">
+          Info
+        </v-btn>
+      </v-list-item>
+      <v-list-item>
+        <v-btn color="success">
+          Success
+        </v-btn>
+      </v-list-item>
+      <v-list-item>
+        <v-btn color="warning">
+          Warning
+        </v-btn>
+      </v-list-item>
+      <v-list-item>
+        <v-btn color="error">
+          Error
+        </v-btn>
+      </v-list-item>
+      <v-list-item>
+        <v-btn color="primary">
+          Primary
+        </v-btn>
+      </v-list-item>
+      <v-list-item>
+        <v-btn color="secondary">
+          Secondary
+        </v-btn>
+      </v-list-item>
+      <v-list-item>
+        <v-btn color="info">
+          Info
+        </v-btn>
+      </v-list-item>
+      <v-list-item>
+        <v-btn color="success">
+          Success
+        </v-btn>
+      </v-list-item>
+      <v-list-item>
+        <v-btn color="warning">
+          Warning
+        </v-btn>
+      </v-list-item>
+      <v-list-item>
+        <v-btn color="error">
+          Error
+        </v-btn>
+      </v-list-item>
+      <v-list-item>
+        <v-btn color="primary">
+          Primary
+        </v-btn>
+      </v-list-item>
+      <v-list-item>
+        <v-btn color="secondary">
+          Secondary
+        </v-btn>
+      </v-list-item>
+      <v-list-item>
+        <v-btn color="info">
+          Info
+        </v-btn>
+      </v-list-item>
+      <v-list-item>
+        <v-btn color="success">
+          Success
+        </v-btn>
+      </v-list-item>
+      <v-list-item>
+        <v-btn color="warning">
+          Warning
+        </v-btn>
+      </v-list-item>
+      <v-list-item>
+        <v-btn color="error">
+          Error
+        </v-btn>
+      </v-list-item>
     </v-list>
   </v-card>
 </template>
